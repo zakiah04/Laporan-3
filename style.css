@@ -1,0 +1,62 @@
+body {
+    background: url("unib.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  /* Kotak profil */
+  .profile-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9); /* putih semi-transparan */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efek hover: putih dikurangi */
+  .profile-container:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+  
+  /* Judul */
+  h1 {
+    color: #00796b;
+    margin-bottom: 30px;
+  }
+  
+  /* Paragraf */
+  p {
+    font-size: 18px;
+    margin: 12px 0;
+  }
+  
+  /* Label info */
+  p strong {
+    color: #004d40;
+  }
+  
+  /* Gaya gambar di dalam profil */
+  .profile-container img {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-container img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Garis pemisah */
+  hr {
+    margin-top: 30px;
+    border: 0;
+    height: 1px;
+    background: #b2dfdb;
+  }
